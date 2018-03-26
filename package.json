@@ -1,0 +1,33 @@
+{
+  "name": "tickedoff",
+  "version": "0.0.0",
+  "description": "Tiny library for deferring something by a \"tick\"",
+  "main": "index.js",
+  "repository": "https://github.com/jamiebuilds/tickedoff",
+  "author": "Jamie Kyle <me@thejameskyle.com>",
+  "license": "MIT",
+  "keywords": [
+    "defer",
+    "async",
+    "wait",
+    "sleep",
+    "pause",
+    "setTimeout",
+    "setImmediate",
+    "Promise",
+    "process",
+    "nextTick",
+    "polyfill",
+    "ponyfill"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "flow-bin": "^0.68.0"
+  }
+}
