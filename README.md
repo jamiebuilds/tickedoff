@@ -28,3 +28,13 @@ console.log(2);
 // 2
 // 3
 ```
+
+## Perf
+
+```sh
+$ node perf.js
+process.nextTick x 10000 = 24ms
+Promise#then x 10000 = 29ms
+setImmediate x 10000 = 68ms
+setTimeout x 10000 = 13506ms
+```
