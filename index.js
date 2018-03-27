@@ -14,8 +14,4 @@ if (typeof process === 'object') {
   defer = setTimeout;
 }
 
-function tickedoff(cb /*: () => mixed */) /*: void */ {
-  defer(cb);
-}
-
-module.exports = tickedoff;
+module.exports = defer;
