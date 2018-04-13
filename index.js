@@ -3,7 +3,7 @@
 
 var defer;
 
-if (typeof process === 'object') {
+if (typeof process === 'object' && process.nextTick) {
   defer = process.nextTick;
 } else if (typeof Promise === 'function') {
   var resolve = Promise.resolve();
