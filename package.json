@@ -1,6 +1,6 @@
 {
   "name": "tickedoff",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Tiny library for deferring something by a \"tick\"",
   "main": "index.js",
   "repository": "https://github.com/jamiebuilds/tickedoff",
