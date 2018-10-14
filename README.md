@@ -38,3 +38,7 @@ Promise#then x 10000 = 29ms
 setImmediate x 10000 = 68ms
 setTimeout x 10000 = 13506ms
 ```
+
+## Bibliography
+
+- [A tour of JavaScript timers on the web](https://nolanlawson.com/2018/09/01/a-tour-of-javascript-timers-on-the-web/).
