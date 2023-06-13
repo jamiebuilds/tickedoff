@@ -4,7 +4,8 @@
 
 - Using `setTimeout` is actually a bit slow because its clamped to 4ms
 - `setImmediate` is not available in most places (and probably never will be)
-- `process.nextTick` is only in Node
+- `queueMicrotask` isn't available in all Node.js versions
+- `process.nextTick` is only in Node.js
 - `Promise#then` needs polyfills in places
 - `tickedoff` uses whatever the best available option is
 - There are more robust libraries/polyfills but they are larger in size
